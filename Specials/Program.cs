@@ -66,6 +66,15 @@ namespace Specials
             Console.WriteLine("The max value of double is "+maxDouble);
             Console.WriteLine("and the minimum is "+minDouble+"\n");
 
+            double maxInfinity = double.PositiveInfinity;
+            double minInfinity = double.NegativeInfinity;
+
+            double NaN1 = maxInfinity / maxInfinity;
+            float NaN2 = float.NaN;
+
+            Console.WriteLine("Positive infinity is "+maxInfinity);
+            Console.WriteLine("Negative infinity is "+minInfinity);
+            Console.WriteLine("and NaN is "+NaN1+" and "+NaN2);
         }
     }
 }
