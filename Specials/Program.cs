@@ -93,6 +93,15 @@ namespace Specials
             float floatOverflow = maxFloat + 0.01f;
             Console.WriteLine("Max value of double squared is "+doubleOverflow);
             Console.WriteLine("Max value of float plus 0.01 is"+floatOverflow);
+
+            double doubleUnderflow = maxDouble + 2/1000;
+            float floatUnderflow = minFloat - 0.001f;
+
+            bool bool1= doubleUnderflow == maxDouble;
+            bool bool2 = floatUnderflow == minFloat;
+
+            Console.WriteLine("(Max double plus 0.002==max double) is "+bool1);
+            Console.WriteLine("(Min float minus 0.001==min float) is "+bool2);
         }
     }
 }
