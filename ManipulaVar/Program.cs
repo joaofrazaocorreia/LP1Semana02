@@ -7,11 +7,15 @@ namespace ManipulaVar
         static void Main(string[] args)
         {
             int x = Convert.ToInt32(args[0]);
-            Console.WriteLine(x);
+            int og_x = x;
+            Console.WriteLine(og_x);
 
-            int y = 6;
-            int result = x++ * y++;
-            Console.WriteLine(args[0]+"++ times "+y+"++ equals "+result);
+            int result1= x++ + x++;
+            Console.WriteLine(og_x+"++ plus "+og_x+"++ equals "+result1);
+
+            x = Convert.ToInt32(args[0]);
+            int result2= --x + --x;
+            Console.WriteLine("--"+og_x+" plus --"+og_x+" equals "+result2);
         }
     }
 }
