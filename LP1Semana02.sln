@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulaVar", "ManipulaVar\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerguntaValores", "PerguntaValores\PerguntaValores.csproj", "{3FC8AB77-5233-4A33-BBDE-9685160795A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specials", "Specials\Specials.csproj", "{236D304F-EFBD-42AD-A4D5-83F75B1C41A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3FC8AB77-5233-4A33-BBDE-9685160795A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC8AB77-5233-4A33-BBDE-9685160795A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC8AB77-5233-4A33-BBDE-9685160795A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236D304F-EFBD-42AD-A4D5-83F75B1C41A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236D304F-EFBD-42AD-A4D5-83F75B1C41A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236D304F-EFBD-42AD-A4D5-83F75B1C41A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236D304F-EFBD-42AD-A4D5-83F75B1C41A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
