@@ -75,6 +75,19 @@ namespace Specials
             Console.WriteLine("Positive infinity is "+maxInfinity);
             Console.WriteLine("Negative infinity is "+minInfinity);
             Console.WriteLine("and NaN is "+NaN1+" and "+NaN2);
+
+
+            Console.WriteLine("\n\n\n");
+
+
+            int intOverflow = maxInt + 1;
+            Console.WriteLine("Max value of int + 1 equals "+intOverflow);
+
+            long longOverflow = minLong- 1;
+            Console.WriteLine("Min value of long - 1 equals "+longOverflow);
+
+            uint uintOverflow = maxUInt + 43;
+            Console.WriteLine("Max value of uint + 43 equals "+uintOverflow);
         }
     }
 }
