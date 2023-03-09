@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakConti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTMother", "ChatGPTMother\ChatGPTMother.csproj", "{63916F91-0EC8-445F-8669-D201D1176B1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{A0A9BE55-C536-4A2F-B534-F9E2E7E92195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{63916F91-0EC8-445F-8669-D201D1176B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63916F91-0EC8-445F-8669-D201D1176B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63916F91-0EC8-445F-8669-D201D1176B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A9BE55-C536-4A2F-B534-F9E2E7E92195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A9BE55-C536-4A2F-B534-F9E2E7E92195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A9BE55-C536-4A2F-B534-F9E2E7E92195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A9BE55-C536-4A2F-B534-F9E2E7E92195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
