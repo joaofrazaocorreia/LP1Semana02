@@ -16,9 +16,10 @@ namespace PerguntaValores
             int r = int.Parse(radius);
 
             double volume = Math.PI * (r*r) * a;
-            Console.WriteLine("The cillinder's volume is "+volume+".");
+            Console.WriteLine("The cylinder's volume is "+volume+".");
 
-            
+            double surfc_area = 2 * Math.PI * r * (r+a);
+            Console.WriteLine("The cylinder's surface area is "+surfc_area+".");
         }
     }
 }
