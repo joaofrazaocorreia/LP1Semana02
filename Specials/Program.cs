@@ -88,6 +88,11 @@ namespace Specials
 
             uint uintOverflow = maxUInt + 43;
             Console.WriteLine("Max value of uint + 43 equals "+uintOverflow);
+
+            double doubleOverflow = maxDouble * maxDouble;
+            float floatOverflow = maxFloat + 0.01f;
+            Console.WriteLine("Max value of double squared is "+doubleOverflow);
+            Console.WriteLine("Max value of float plus 0.01 is"+floatOverflow);
         }
     }
 }
